@@ -1,0 +1,138 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    if pageCurrent == 0
+      title #{settings.title}
+      meta(property="og:title" content=settings.title)
+      meta(name="twitter:title" content=title + " – " + settings.title)
+    else
+      title #{title} – #{settings.title}
+      meta(property="og:title" content=title + " – " + settings.title)
+      meta(name="twitter:title" content=title + " – " + settings.title)
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(type="text/css" rel="stylesheet" href="/public/css/app.css")
+    link(rel="icon" id="favicon" href=settings.favicon)
+    link(rel="apple-touch-icon-precomposed" href=settings.apple_touch_icon)
+    meta(name="description" content=settings.description)
+    meta(property="og:url" content=settings.url)
+    meta(property="og:description" content=settings.description)
+    meta(property="og:image" content=settings.facebook_card_image)
+    meta(name="twitter:card" content=settings.twitter_card_image)
+    meta(name="twitter:site" content=settings.twitter_card_handle)
+    meta(name="twitter:creator" content=settings.twitter_card_handle)
+    meta(name="twitter:description" content=settings.description)
+    meta(name="twitter:image" content=settings.twitter_card_image)
+    script(src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous")
+    script(src="/public/js/app.js")
+  body(class=pageClass)
+    a(id="skip_to_content" href="#content") Skip to content
+    header
+      a(id="logo" href="https://projectsbyif.com")
+        img(src="https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/if-logotype-strokes.svg" alt="Projects By IF")
+      if pageCurrent != 0
+        a(id="site_title" href="/") #{settings.title}
+      a(id="link_contents" href="#contents") Contents
+      if pageCurrent == 0
+        div
+          h1 Open APIs in the Telecoms Industry
+          if settings.sub_title
+            h2 #{settings.sub_title}
+          if settings.publication_date
+            h3 #{settings.publication_date}
+          img(src="https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/report_header.jpg")
+
+    div(id="contents")
+      div
+        h1 Contents
+        a(id="close_contents" href="#") Close
+        ul(class="contents-list")
+          for page in settings.contents
+            li
+              if title == page.title
+                if page.custom_contents
+                  a(href=page.slug class="bold") !{page.custom_contents}
+                else
+                  a(href=page.slug class="bold") #{page.title}
+              else
+                if page.custom_contents
+                  a(href=page.slug) !{page.custom_contents}
+                else
+                  a(href=page.slug) #{page.title}
+        ul(class="contents-appendices")
+          for page in settings.contents_appendices
+            li
+              if title == page.title
+                if page.custom_contents
+                  a(href=page.slug class="bold") !{page.custom_contents}
+                else
+                  a(href=page.slug class="bold") #{page.title}
+              else
+                if page.custom_contents
+                  a(href=page.slug) !{page.custom_contents}
+                else
+                  a(href=page.slug) #{page.title}
+    //- Cover page
+    main(id="content")
+      if pageCurrent == 0
+        section(class="content no-margin-bottom")
+          != content
+        if settings.show_table_of_contents
+          //- TOC
+          div(class="contents-wrapper")
+            h1 Contents
+            ul(class="contents-list")
+              for page in settings.contents
+                li
+                  if page.custom_contents
+                    a(href=page.slug) !{page.custom_contents}
+                  else
+                    a(href=page.slug) #{page.title}
+            ul(class="contents-appendices")
+              for page in settings.contents_appendices
+                li
+                  if page.custom_contents
+                    a(href=page.slug) !{page.custom_contents}
+                  else
+                    a(href=page.slug) #{page.title}
+      //- Content pages
+      else
+        div(class="content")
+          != content
+    if pageCurrent > 0
+      nav
+        div(class="previous")
+          if pageCurrent == 1
+            a(href="/")
+              img(src="/public/images/pointer-left.svg")
+              span Home
+          else if pageCurrent != 0
+            a(href=pagePrevious)
+              img(src="/public/images/pointer-left.svg")
+              span Previous page
+        div(class="counter")
+          if pageCurrent != 0
+            p #{pageCurrent} of #{pageCount}
+        div(class="next")
+          if pageCurrent == 0
+            a(href=pageNext)
+              span Read the report
+              img(src="/public/images/pointer-right.svg")
+          else if pageCurrent == pageCount
+            a(href="/")
+              span Home
+              img(src="/public/images/pointer-right.svg")
+          else
+            a(href=pageNext)
+              span Next page
+              img(src="/public/images/pointer-right.svg")
+    if settings.show_collaborator_logo || settings.show_licence
+      footer
+        if settings.show_collaborator_logo
+          div(id="in_collaboration_with")
+            p In collaboration with
+            a(href=settings.collaborator_url)
+              img(src=settings.collaborator_logo_url alt=settings.collaborator_name + " logo")
+        if settings.show_licence
+          p(class="licence")
+            a(href=settings.licence_url, rel="license") #{settings.licence_text}

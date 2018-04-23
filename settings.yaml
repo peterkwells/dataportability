@@ -1,0 +1,55 @@
+# About
+title: Open APIs in the Telecoms Industry
+sub_title: Exploring and testing opportunities for new services and stronger digital rights
+description: In collaboration with the Open Data Institute, IF researched how open APIs in the telecoms sector could lead to new classes of commercial products. We found resulting effects could include personal empowerment over data held about people, as well as the creation of new mechanisms to use data for the public good.
+publication_date: February 2018
+url: CHANGEME
+
+# Pages, and what order they're in
+pages:
+  - title: "Open APIs for telecoms"
+    class: "cover-page"
+  - title: "An introduction to Open APIs"
+  - title: "Scenario 1: choosing the best mobile network operator"
+    class: "scenario-1"
+    custom_contents: "<p><span class=\"content_sublabel\">Scenario 1</span><br /><span class=\"content_label\">Choosing the best mobile network operator</span></p>"
+  - title: "Scenario 2: managing utility bills in a shared household"
+    class: "scenario-2"
+    custom_contents: "<p><span class=\"content_sublabel\">Scenario 2</span><br /><span class=\"content_label\">Managing utility bills in a shared household</span></p>"
+  - title: "Scenario 3: improving a city's air quality using bulk location data from mobile phones"
+    class: "scenario-3"
+    custom_contents: "<p><span class=\"content_sublabel\">Scenario 3</span><br /><span class=\"content_label\">Improving a city's air quality using bulk location data from mobile phones</span></p>"
+  - title: "Summary: building the future"
+    custom_contents: "<p><span class=\"content_sublabel\">Summary</span><br /><span class=\"content_label\">Building the future</span></p>"
+  - title: "About this research"
+    appendix: true
+  - title: "Potential design patterns for open APIs in the utilities sector"
+    class: "design-patterns"
+    appendix: true
+  - title: "Potential open APIs for the telecoms sector"
+    appendix: true
+  - title: "Supporting datasets to be made open"
+    appendix: true
+
+# Design
+show_collaborator_logo: true
+collaborator_name: Open Data Institute
+collaborator_logo_url: "https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/open-data-institute.png"
+collaborator_url: "https://theodi.org"
+
+# Licence
+show_licence: true
+licence_text: "This report is licenced under Creative Commons Attribution-ShareAlike 4.0 International"
+licence_url: "https://creativecommons.org/licenses/by-sa/4.0/"
+
+# Images
+favicon: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/favicon.png
+apple_touch_icon: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/apple_touch_icon.png
+facebook_card_image: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/fb-image.png
+twitter_card_image: https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/fb-image.png
+
+# TOC
+show_table_of_contents: true
+
+# Social media links
+twitter_card_handle: @projectsbyif

@@ -1,0 +1,458 @@
+#skip_to_content {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+}
+
+header {
+  height: $height-header;
+  margin-bottom: $default-spacing-big;
+
+  #logo {
+    display: block;
+    width: 26px;
+    height: 35px;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  #site_title {
+    font-family: "Calibre-Semibold", "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 17px;
+    text-align: center;
+    width: calc(100% - 120px);
+    margin-left: 60px;
+    margin-right: 60px;
+    display: block;
+    height: $height-header;
+    padding-top: 28px;
+    line-height: 18px;
+    color: $color-text-main;
+  }
+
+  #link_contents {
+    width: 50px;
+    height: 50px;
+    display: block;
+    color:#323232;
+    text-indent: -9999px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background-image: url('/public/images/menu.svg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 22px;
+    font-family: "Circular-Bold", "Helvetica Neue", "Arial", sans-serif;
+    font-size: 0.75em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+}
+
+// .cover-image {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100vw;
+//   height: 250px;
+//   background-image: url('https://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/openapis.projectsbyif.com/report_header.jpg');
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-position: center center;
+//   z-index: -1;
+// }
+
+#contents h1,
+.contents-wrapper h1 {
+  font-family: "Circular-Bold", "Helvetica Neue", "Arial", sans-serif;
+  font-size: 0.75em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#contents {
+  padding: 30px;
+  width: calc(100vw - 60px);
+  min-height: 100vh;
+  background-color: #EDF0F2;
+  z-index: 9999;
+
+  h1 {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: rgba(0,0,0,0.1) 1px solid;
+  }
+
+  h2 {
+    font-size: 0.8em;
+    margin-bottom: 0;
+  }
+
+  &.hideable {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  ul.contents-list {
+    .content_label {
+      background: none;
+    }
+  }
+
+  ul.contents-appendices {
+    font-size: 0.9em;
+  }
+
+  #close_contents {
+    width: 20px;
+    height: 20px;
+    background-image: url('https://s3-eu-west-1.amazonaws.com/projectsbyif.com/shared/icon_close_dark.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px;
+    position: absolute;
+    top: 25px;
+    right: 21px;
+    display: none;
+  }
+}
+
+.contents-wrapper {
+  background-color: #EDF0F2;
+  padding: $default-spacing-small;
+  margin-top: $default-spacing-small;
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: $default-spacing-small;
+  }
+}
+
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+ul.contents-list,
+ul.contents-appendices {
+  a:hover {
+    color: #474747;
+  }
+}
+
+ul.contents-list {
+  list-style-type: none;
+
+  li {
+    margin-left: 0;
+    margin-bottom: 15px;
+
+    .content_sublabel {
+      font-family: "Circular-Bold", "Helvetica Neue", "Arial", sans-serif;
+      font-size: 0.65em;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #999;
+    }
+
+    &.seperator {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      height: 1px;
+      background: rgba(0,0,0,0.1);
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+ul.contents-appendices {
+  margin-top: 15px;
+  list-style-type: none;
+  border-top: rgba(0,0,0,0.1) 1px solid;
+  padding-top: 20px;
+
+  li {
+    margin-left: 0;
+    margin-bottom: 15px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// .toc {
+//   h3 {
+//     margin-top: $default-spacing-small;
+//     margin-bottom: $default-spacing-small;
+//   }
+//   ul {
+//     li {
+//       margin-bottom: $default-spacing-small / 3;
+//     }
+//   }
+// }
+
+.content {
+  padding: $default-spacing-small;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  img {
+    margin-top: calc(#{$default-spacing-big} - #{$default-spacing-small});
+    width: 100%;
+  }
+}
+
+nav {
+  border-top: #{$color-accent} 1px solid;
+  padding-left: $default-spacing-small;
+  padding-right: $default-spacing-small;
+  margin-top: calc(#{$default-spacing-big} - 20px);
+  height: $height-nav;
+
+  div {
+    width: 33.333%;
+    float: left;
+    height: $height-nav;
+  }
+
+  a {
+    height: $height-nav;
+    width: $height-nav;
+    display: block;
+  }
+
+  span {
+    display: none;
+  }
+
+  img {
+    height: 18px;
+    margin-top: 22px;
+  }
+
+  .previous {
+
+  }
+
+  .counter {
+    text-align: center;
+
+    p {
+      margin-top: 20px;
+    }
+  }
+
+  .next {
+    text-align: right;
+
+    a {
+      float: right;
+    }
+  }
+}
+
+footer {
+  border-top: #{$color-accent} 1px solid;
+}
+
+#in_collaboration_with {
+  padding: #{$default-spacing-small} #{$default-spacing-small} 10px #{$default-spacing-small};
+
+  a {
+    height: 50px;
+    display: inline-block;
+
+    img {
+      height: 50px;
+    }
+  }
+}
+
+.licence {
+  padding-left:$default-spacing-small;
+  padding-right:$default-spacing-small;
+
+  a {
+    color: #999;
+  }
+}
+
+.description{
+  border-bottom: solid 1px #eee;
+  padding-bottom: calc(#{$default-spacing-big} - 5px);
+  margin-bottom: #{$default-spacing-big};
+}
+
+.highlight-section {
+  background: #EEE;
+  padding: 20px;
+
+  div {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 800px) {
+  // .cover-image {
+  //   height: 500px;
+  // }
+
+  header {
+    height: 96px;
+    margin-bottom: calc(3 * #{$default-spacing-big});
+
+    #site_title {
+      display: inline;
+      left: 65px;
+      top: 24px;
+      position: relative;
+      margin-left: 0;
+      margin-right: 0;
+      width: auto;
+      font-size: 19px;
+    }
+
+    #link_contents {
+      background-image: none;
+      text-indent: 0;
+      display: inline;
+      width: auto;
+      height: auto;
+      top: 25px;
+    }
+  }
+
+  .content {
+    padding: 0;
+    width: $desktop-column-width;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: calc(#{$default-spacing-big});
+  }
+
+  .highlight-section {
+    margin-bottom: calc(2 * 28px);
+
+    div {
+      width: $desktop-column-width;
+      margin: 0 auto;
+    }
+  }
+
+  #contents {
+    div {
+      margin: 0 auto;
+      height: calc(100vh - 60px);
+      overflow-y: scroll;
+    }
+
+    &.hideable {
+      width: 33vw;
+      position: fixed;
+
+      div {
+        width: 100%;
+        margin: 0;
+      }
+    }
+  }
+
+  nav {
+    span {
+      display: inline;
+      top: -2px;
+      position: relative;
+    }
+
+    a {
+      width: 100%;
+    }
+
+    .previous img {
+      margin-right: 3px;
+    }
+
+    .next img {
+      margin-left: 3px;
+    }
+  }
+
+  .contents-wrapper {
+    width: 760px;
+    margin-top: $default-spacing-big;
+    margin-bottom: $default-spacing-big;
+    margin-left: auto;
+    margin-right: auto;
+    padding: $default-spacing-big;
+  }
+}
+
+@media print {
+  a {
+    border-bottom: 0;
+  }
+
+  .caption a {
+    border-bottom: 0;
+  }
+
+  #contents {
+    display: none;
+  }
+
+  header {
+    height: auto;
+    padding: $default-spacing-small;
+    margin-bottom: 0;
+
+    #site_title {
+      display: inline;
+      font-family: $font-family-bold;
+      margin-left: 0;
+    }
+
+    #logo {
+      position: initial;
+      margin-bottom: $default-spacing-big;
+    }
+
+    #link_contents {
+      display: none;
+    }
+  }
+
+  .content {
+    margin-bottom: 0;
+
+    img {
+      width: 50%;
+    }
+  }
+
+  #in_collaboration_with {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+}
