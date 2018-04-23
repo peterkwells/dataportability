@@ -7,7 +7,7 @@ url: CHANGEME
 
 # Pages, and what order they're in
 pages:
-  - title: "Using data about multiple people"
+  - title: "Porting data about multiple people"
     class: "cover-page"
   - title: "An introduction to Open APIs"
   - title: "Scenario 1: choosing the best mobile network operator"
