@@ -1,30 +1,21 @@
 # About this research
 
-We began the work by asking the question, **what types of data do telecom companies hold?**
+We began the work by listing scenarios where multiple people's data is involved.
 
-To answer this, we interviewed five people working in the telecom sectors in the UK and France including mobile and fixed line.
+Something about reading the GDPR legislation?
 
-We also studied the legislation that requires telecoms companies to retain certain information.
+From these scenarios, we created seven prototypes that implement data portability in useful ways, in contexts that people recognise from everyday life.
 
-From these conversations, we had a working idea of the data held about people that could potentially be made available through open APIs.
+These prototypes were presented to five people in hour-long research sessions. They facilitated conversations to help us answer these research questions:
 
-Next we wanted to understand some follow up questions:
+- Do people understand that data about them can be used by multiple services?
+- How do people feel about other people using data about them in other services?
+- Can people recognise information about them amongst other people’s information?
+- What are the limits of using information about multiple people?
 
-* What could people do that they cannot do now, if open telecom APIs existed?
+The people we interviewed came from multi-generational households, across a range of genders and ethnic backgrounds. They used products including laptops, smartphones, smart speakers and wearables and digital services including social media, streaming services and online shopping.
 
-* Can we demonstrate new services that people are actually interested in?
 
-* What data do people understand phone & broadband providers hold about them?
-
-* What are people’s attitudes to privacy in relation to telecoms data held about them?
-
-* What needs do people have for the controlling telecoms data about them?
-
-To answer these questions, we tested prototypes with ten people over two rounds of research. We showed the work and listened to reactions from diverse groups from the UK, France and further afield. There was a wide variation in attitudes to privacy as well as confidence with technology.
-
-The prototypes were iterated based on feedback from the research sessions with the final versions being the ones presented in this report.
-
-Throughout the project we came across a lot of previous work in the area. Here are a few articles and organizations that contributed to our thinking:
 
 * [OpenSignal](https://opensignal.com/) produce coverage maps based on data crowdsourced from millions of users of their smartphone app
 
