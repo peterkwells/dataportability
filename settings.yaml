@@ -11,23 +11,25 @@ pages:
     class: "cover-page"
   - title: "What is data portability?"
   - title: "Data can be about multipe people"
-  - title: "Section 1: Data is still an abstract topic to many people"
+  - title: "Section 1: Data is an abstract topic to many people"
     class: "section-1"
-    custom_contents: "<p><span class=\"content_sublabel\">Section 1</span><br /><span class=\"content_label\">Data is still an abstract topic to many people</span></p>"
-  - title: "Section 2: The purpose for porting data and the organisations involved is key"
+    custom_contents: "<p><span class=\"content_sublabel\">Section 1</span><br /><span class=\"content_label\">Data is an abstract topic to many people</span></p>"
+  - title: "Section 2: Data uses, organisations and trust"
     class: "section-2"
-    custom_contents: "<p><span class=\"content_sublabel\">Section 2</span><br /><span class=\"content_label\">The purpose for porting data and the organisations involved is key</span></p>"
-  - title: "Section 3: Attitudes towards data portability depend on social relationships"
+    custom_contents: "<p><span class=\"content_sublabel\">Section 2</span><br /><span class=\"content_label\">Data uses, organisations and trust</span></p>"
+  - title: "Section 3: Social relationships affect portability"
     class: "section-3"
-    custom_contents: "<p><span class=\"content_sublabel\">Section 3</span><br /><span class=\"content_label\">Attitudes towards data portability depend on social relationships</span></p>"
-  - title: "Section 4: Data about multiple people complicates portability"
+    custom_contents: "<p><span class=\"content_sublabel\">Section 3</span><br /><span class=\"content_label\">Social relationships affect portability</span></p>"
+  - title: "Section 4: Data portability can be messy"
     class: "section-4"
-    custom_contents: "<p><span class=\"content_sublabel\">Section 4</span><br /><span class=\"content_label\">Data about multiple people complicates portability</span></p>"
+    custom_contents: "<p><span class=\"content_sublabel\">Section 4</span><br /><span class=\"content_label\">Data portability can be messy</span></p>"
   - title: "Summary: building the future"
     custom_contents: "<p><span class=\"content_sublabel\">Summary</span><br /><span class=\"content_label\">Building the future</span></p>"
   - title: "About this research"
     appendix: true
   - title: "Designing for data portability"
+    appendix: true
+  - title: "Prototypes"
     appendix: true
 
 # Design
