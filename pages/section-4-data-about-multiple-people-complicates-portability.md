@@ -14,13 +14,11 @@ Data portability is particularly challenging when data is inherently about more 
 
 When leaving FriendShare, you can request an archive of all the content and interactions from your time using the service.
 
-[Illustration 1]
-
 People who have data about them in the requested archive will receive a notification.
 
-[Illustration 2]
-
 They are given 24 hours to choose what information about them can be included in the archive.
+
+![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Social-Network_Mockup_3-2_v1.jpg)
 
 [end_highlight]
 
@@ -31,15 +29,13 @@ They are given 24 hours to choose what information about them can be included in
 
 Squid allows you to download your home’s internet history. This helps you understand better your internet use, identify reasons for connection issues or see what data we store about you. 
 
-[illustration 1]
+![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Internet-History_Mockup_12_3-2_v1.jpg)
 
 Internet history is sensitive information and can only be viewed with consent, from everyone. It’s our policy that every person registered to your address made, made agree before this information is made available to use. 
 
-[illustration 2]
+![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Internet-History_Mockup_34_3-2_v1.jpg)
 
 In the event there isn’t agreement to view the house internet history, you can appear using the Data Rights Commission’s mediation service
-
-
 
 [end_highlight]
 

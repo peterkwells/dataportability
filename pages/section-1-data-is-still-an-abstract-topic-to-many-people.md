@@ -30,13 +30,11 @@ Diet Scan helps your see and understand more about the food you eat.
 
 By using codes on shopping receipts, Diet Scan instantly fetches nutritional information for every item of food you’ve bought. 
 
-[illustration 1]
-
-[illustration 2]
+![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Diet-Information_Mockup_12_3-2_v1.jpg)
 
 To understand your diet, Diet Scan analysing items to calculate what you and others ate. 
 
-[illustration 2]
+![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Diet-Information_Mockup_34__3-2_v1.jpg)
 
 [end_highlight]
 

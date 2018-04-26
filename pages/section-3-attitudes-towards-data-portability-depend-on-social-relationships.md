@@ -37,10 +37,13 @@ Once information is shared, you can review and switch directly from the screen.
 ## Prototype 
 ### Deciding what the family watches
 
-Content Player allows you to share your parental settings with other media services. This means your family’s choices about what it does and doesn’t watch, can more easily set and updated. 
+You can set what Flixxer shows your children watch.
 
-[illustration 1]
+![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Parental-Controls_Mockup_1_3-2_v1.jpg)
 
+You can shares these parental settings with other media services. This means your family’s choices about what it does and doesn’t watch, can more easily set and updated.
+
+![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Parental-Controls_Mockup_2_3-2_v1.jpg)
 
 [end_highlight]
 
