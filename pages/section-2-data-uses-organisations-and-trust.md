@@ -26,7 +26,7 @@ This letter confirms data transfer has happened and shows that the old council h
 It’s useful to prove you lived at an address, for example when applying for a mortgage, so the letter contains a code that can be used with an online service to prove residency in the future.
 
 
-[Image of coucil tax deletion letter]
+![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Council-Deletion-Letter_Mockup_3-2_v4.jpg)
 
 
 [end_highlight]

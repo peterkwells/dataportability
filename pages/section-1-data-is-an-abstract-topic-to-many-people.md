@@ -10,6 +10,23 @@ We developed two prototypes to help us explore this issue. The first prototype l
 [start_highlight]
 
 ## Prototype
+### knowledge about what you eating
+
+DietScan helps your see and understand more about the food you eat. 
+
+By using codes on shopping receipts, Diet Scan instantly fetches nutritional information for every item of food you’ve bought. 
+
+![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Diet-Information_Mockup_1_2_3-2_v1.jpg)
+
+To understand your diet, Diet Scan analysing items to calculate what you and others ate. 
+
+![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Diet-Information_Mockup_3_4__3-2_v1.jpg)
+
+[end_highlight]
+
+[start_highlight]
+
+## Prototype
 ### Moving song preferences and voice recognition
 
 HausBox and Songs Box are smart speakers connected to the internet. Instructed using your voice, these devices to perform tasks, such as playing music or making shopping lists. 
@@ -18,23 +35,6 @@ HausBox recognises your voice and knows the songs your like. You want your new S
 
 [Video / GIF]
 
-
-[end_highlight]
-
-[start_highlight]
-
-## Prototype
-### knowledge about what you eating
-
-Diet Scan helps your see and understand more about the food you eat. 
-
-By using codes on shopping receipts, Diet Scan instantly fetches nutritional information for every item of food you’ve bought. 
-
-![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Diet-Information_Mockup_12_3-2_v1.jpg)
-
-To understand your diet, Diet Scan analysing items to calculate what you and others ate. 
-
-![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Diet-Information_Mockup_34__3-2_v1.jpg)
 
 [end_highlight]
 

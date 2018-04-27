@@ -17,17 +17,19 @@ To explore how social relationships affect data portability, we created two prot
 
 EnergyMeter shows live information about how much energy is being used in a home.
 
-[Illustration 1]
-
 You can review and share detailed energy usage information, to find and switch to a cheaper provider.
 
-[Illustration 2]
+![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Energy-Meter_Mockup_1_3-2_v1.jpg)
+
+![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Energy-Meter_Mockup_2_3-2_v1.jpg)
 
 Behaviour can be inferred from energy consumption information. Before sharing this information with a price comparison service, a prompt is displayed to encourage the person switching to talk to others in the home.
 
-[Illustration 3]
+![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Energy-Meter_Mockup_3_3-2_v1.jpg)
 
 Once information is shared, you can review and switch directly from the screen.
+
+![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Energy-Meter_Mockup_4_3-2_v1.jpg)
 
 
 [end_highlight]

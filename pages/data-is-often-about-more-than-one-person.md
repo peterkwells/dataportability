@@ -1,8 +1,8 @@
 # Data is often about more than one person
 
-Data can also be created by multiple people. A medical record might describe a person, their partner and other family members, as well as their doctor.
+Data can also be created by multiple people. A medical record might describe a person, their partner and other family members, as well as their doctor. A phone bill describes your friends, family, colleagues and when you speak to them.
 
-[illustration of data about multiple people; make the same as example above?]
+![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/phone-bill.jpg)
 
 In this report we do not refer to ‘people’s data’ but instead use terms like ‘data about them’. By avoiding possessive pronouns, we hope to encourage understanding of the wider network of relationships involved in data collection and use. 
 
