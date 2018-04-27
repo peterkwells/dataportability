@@ -1,4 +1,4 @@
-# Data can be about multipe people
+# Data is often about more than one person
 
 Data can also be created by multiple people. A medical record might describe a person, their partner and other family members, as well as their doctor.
 

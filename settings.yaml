@@ -1,7 +1,7 @@
 # About
-title: Data portability and data about multiple people
-sub_title: Exploring and testing opportunities for new services and stronger digital rights
-description: In collaboration with the Open Data Institute, IF researched how open APIs in the telecoms sector could lead to new classes of commercial products. We found resulting effects could include personal empowerment over data held about people, as well as the creation of new mechanisms to use data for the public good.
+title: Reusing Data About Multiple People
+sub_title: Exploring rights to data portability when the data describes more than one person
+description: In collaboration with the Open Data Institute, IF researched how data portability could work when data is about multiple people.
 publication_date: May 2018
 url: CHANGEME
 
@@ -10,7 +10,7 @@ pages:
   - title: "Overview"
     class: "cover-page"
   - title: "What is data portability?"
-  - title: "Data can be about multipe people"
+  - title: "Data is often about more than one person"
   - title: "Section 1: Data is an abstract topic to many people"
     class: "section-1"
     custom_contents: "<p><span class=\"content_sublabel\">Section 1</span><br /><span class=\"content_label\">Data is an abstract topic to many people</span></p>"
