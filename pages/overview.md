@@ -1,3 +1,8 @@
+# GDPR, Data Portability and Data About Multiple People
+
+## Exploring rights to data portability when the data describes more than one person
+
+### May 2018
 
 In collaboration with the [Open Data Institute](https://theodi.org/), IF researched how data portability could work when data is about multiple people. For example energy bills tell reveal who we live with. 
 

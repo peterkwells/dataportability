@@ -34,12 +34,8 @@ html(lang="en")
         a(id="site_title" href="/") #{settings.title}
       a(id="link_contents" href="#contents") Contents
       if pageCurrent == 0
-        div
-          h1 #{settings.title}
-          if settings.sub_title
-            h2 #{settings.sub_title}
-          if settings.publication_date
-            h3 #{settings.publication_date}
+        img(src="http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Report-Cover_B_v3.jpg")
+
     div(id="contents")
       div
         h1 Contents
@@ -73,26 +69,26 @@ html(lang="en")
     //- Cover page
     main(id="content")
       if pageCurrent == 0
-        section(class="content no-margin-bottom")
+        section(class="content")
           != content
-        if settings.show_table_of_contents
-          //- TOC
-          div(class="contents-wrapper")
-            h1 Contents
-            ul(class="contents-list")
-              for page in settings.contents
-                li
-                  if page.custom_contents
-                    a(href=page.slug) !{page.custom_contents}
-                  else
-                    a(href=page.slug) #{page.title}
-            ul(class="contents-appendices")
-              for page in settings.contents_appendices
-                li
-                  if page.custom_contents
-                    a(href=page.slug) !{page.custom_contents}
-                  else
-                    a(href=page.slug) #{page.title}
+          if settings.show_table_of_contents
+            //- TOC
+            div(class="contents-list")
+              h3 Contents
+              ul(class="contents-list")
+                for page in settings.contents
+                  li
+                    if page.custom_contents
+                      a(href=page.slug) !{page.custom_contents}
+                    else
+                      a(href=page.slug) #{page.title}
+              ul(class="contents-appendices")
+                for page in settings.contents_appendices
+                  li
+                    if page.custom_contents
+                      a(href=page.slug) !{page.custom_contents}
+                    else
+                      a(href=page.slug) #{page.title}
       //- Content pages
       else
         div(class="content")

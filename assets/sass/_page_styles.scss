@@ -1,7 +1,8 @@
 .cover-page {
   header {
-    background-color:#E0BAD7;
+    background-color:#12cbd8;
     padding-top:80px;
+    padding-bottom: 0;
     margin-bottom: $default-spacing-small;
     height: auto;
 
@@ -35,6 +36,28 @@
   }
   .content {
     margin-bottom: $default-spacing-big;
+  }
+}
+
+.content {
+
+  h1, h2, h3 {
+    width:80%;
+    margin-bottom:24px;
+    padding-bottom:0;
+    margin-top:0;
+    padding-top:0;
+    color:#323232;
+  }
+  h2 {
+    text-transform: none;
+    font-family:'Calibre-Medium';
+  }
+  h3 {
+    font-family:'Calibre-Bold';
+    text-transform:uppercase;
+    margin-bottom: 48px;
+
   }
 }
 
