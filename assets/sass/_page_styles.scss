@@ -50,14 +50,23 @@
   }
   h2 {
     text-transform: none;
-    font-family:'Calibre-Medium';
+    text-transform:uppercase;
+    font-family:'Calibre-Bold';
   }
   h3 {
     font-family:'Calibre-Bold';
-    text-transform:uppercase;
-    margin-bottom: 48px;
-
   }
+}
+
+.cover-style-subtitle {
+  font-family:'Calibre-Medium' !important;
+  text-transform: none !important;
+}
+
+.cover-style-date {
+  font-family:'Calibre-Bold' !important;
+  text-transform:uppercase;
+  margin-bottom: 48px !important;
 }
 
 .scenario-1 {
