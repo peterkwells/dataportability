@@ -4,6 +4,8 @@
 
 <h3 class="cover-style-date">May 2018</h3>
 
+Test
+
 In collaboration with the [Open Data Institute](https://theodi.org/), IF researched how data portability could work when data is about multiple people. For example energy bills tell reveal who we live with.
 
 We created seven scenarios to explore data portability. We developed prototypes and tested them with people who live in multigenerational houses in the UK. We used the prototypes to illustrate what data portability could look like in reality and provoke conversation, rather than to provide definitive solutions or services.
