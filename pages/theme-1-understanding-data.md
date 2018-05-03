@@ -1,28 +1,18 @@
-###### Section 1
-# Data is an abstract topic to many people
+###### Theme 1
+# Understanding data
 
-The services we use collect data about us. Sometimes we enter this data ourselves, like when we sign up for something and provide contact details. Data about us is also generated through our use of services, such as the logs that are created from searches we make on the web. Data can also be guessed, inferred or derived about us - retailers build profiles about people or categorise them based on what they buy.
+Many of the products and services people use collect data. Services do this in different ways. For example, an e-commerce site will collect data directly when someone enters a billing address. It may also collect data indirectly when someone searches for a product. In turn, it might use these to generate new data about things people might buy.
 
-People often aren’t aware of the type of data organisations hold about them. According to [a recent study](http://attitudes.doteveryone.org.uk/), over fifty percent of people can’t find out how much data they share when they use a service. People need a level of awareness about data to be able to engage with rights that give them more control over how it is collected, used and shared. This includes the right to data portability.
+This can be opaque to people. According to doteveryone’s recent study, over fifty percent of people can’t find out how much data they share when they use a service. 
 
-We developed two prototypes to help us explore this issue. The first prototype looked at the ability to move song preferences from one smart speaker to another, using voice recognition. The second prototype was an app called Diet Scan, which analyses shopping receipts to help you understand your diet, and the diets of other people you do the shopping for.  
+If people are going to engage with digital rights such as portability, people will need to understand what data about them exists in the first place.
 
-[start_highlight]
+We developed two prototypes and tested them with people to explore their understanding of data:
 
-## Prototype
-### knowledge about what you eating
 
-DietScan helps your see and understand more about the food you eat. 
-
-By using codes on shopping receipts, Diet Scan instantly fetches nutritional information for every item of food you’ve bought. 
-
-![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Diet-Information_Mockup_1_2_3-2_v1.jpg)
-
-To understand your diet, Diet Scan analysing items to calculate what you and others ate. 
-
-![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Diet-Information_Mockup_3_4__3-2_v1.jpg)
-
-[end_highlight]
+<br>
+* [Moving song preferences and voice recognition](#)
+* [Knowledge about what everyone is eating](#)
 
 [start_highlight]
 
@@ -37,7 +27,22 @@ HausBox recognises your voice and knows the songs your like. You want your new S
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/267629982?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <br>
 
+[end_highlight]
 
+[start_highlight]
+
+## Prototype
+### Knowledge about what you eating
+
+DietScan helps your see and understand more about the food you eat. 
+
+By using codes on shopping receipts, Diet Scan instantly fetches nutritional information for every item of food you’ve bought. 
+
+![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Diet-Information_Mockup_12_3-2_v1.jpg)
+
+To understand your diet, Diet Scan analysing items to calculate what you and others ate. 
+
+![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Diet-Information_Mockup_34_3-2_v1.jpg)
 
 [end_highlight]
 

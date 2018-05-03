@@ -1,4 +1,4 @@
-###### Section 2
+###### Theme 2
 # Data uses, organisations and trust
 
 Most of the commentary around data portability focuses on competition - and argues that portability will allow people to switch more easily between providers of the same, or similar, services.

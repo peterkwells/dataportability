@@ -1,5 +1,5 @@
-###### Section 4
-# Data portability can be messy 
+###### Theme 4
+# Shared and competing rights
 
 Data portability needs new thinking and new techniques. Past initiatives like midata have not had the effects they intended. And it’s still unclear whether regulation designed to enable data portability, such as PSD2 and GDPR, will be successful. 
 

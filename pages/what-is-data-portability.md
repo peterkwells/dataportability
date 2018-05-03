@@ -1,9 +1,13 @@
 # What is data portability?
 
-Data portability allows the easy transfer of personal information from one service to another. 
+Data portability is defined as the ability of people to share data about themselves held by one organisation with third parties, including other organisations, services or people.
 
-Some services enable people to do this already, such as when a new mobile app accesses photos or a calendar. There have been initiatives in the past that have tried to make data portability possible. For example, the UK [midata](https://www.gov.uk/government/news/the-midata-vision-of-consumer-empowerment) initiative made it easier for people to access data about their account and activities, so they could use it for new purposes. midata helps customers of some energy suppliers find a better deal - people can access information about their energy consumption and upload it to a third-party price comparison tool, to compare their options.
+In short, data portability is about making it easier to transfer personal information from one service to another.
 
-There is a new wave of regulation affecting data portability. Financial regulation such as the European Union’s [revised Payment Services Directive](https://www.fca.org.uk/news/press-releases/fca-finalises-revised-psd2-requirements) (PSD2) and [Mexico’s FinTech law](https://uk.reuters.com/article/us-mexico-fintech/mexico-financial-technology-law-passes-final-hurdle-in-congress-idUKKCN1GD6KX) law are fuelling the global ‘open banking’ trend. Increasingly, people are requesting that data about their accounts and transactions is transferred from their bank to a third party, such as an account aggregation tool. Open banking is expected to increase competition between account providers, and lead to innovative new products and services for consumers.
+There have been initiatives in the past that have tried to make data portability a reality, like the midata partnership, but the arrival of the European Union's General Data Protection Regulation (GDPR) in 2018 changes things.
 
-The European Union's [General Data Protection Regulation](https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/) (GDPR) comes into force in May. It will strengthen people’s existing individual rights over data about them and introduce new ones, including the right to data portability. The right to data portability is a more extensive version of the existing right to data access. It gives people the right to obtain data about them ‘for reuse across other services’.
+For the first time, people will have the right to data portability.
+
+However, the practicalities of data portability become more challenging to understand in circumstances when the data being ‘ported’ describes more than one person, and when it is considered in combination with other GDPR rights.
+
+The GDPR states that the right to portability ‘shall not adversely affect the rights and freedoms of others’. This raises questions like who needs to agree before data can be ported? How does it compete with another person’s right to erasure? Or to restrict processing?
