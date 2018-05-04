@@ -1,19 +1,18 @@
 # About this research
 
-We began the work by listing scenarios where multiple people's data is involved.
+We began this work by identifying scenarios where multiple data about multiple people is involved.
 
-Something about reading the GDPR legislation?
+From these scenarios, we created seven prototypes that show data portability in a way we hoped people would recognise from everyday life.
 
-From these scenarios, we created seven prototypes that implement data portability in useful ways, in contexts that people recognise from everyday life.
+These prototypes were presented to five people in hour-long research sessions. The prototypes provoked conversations to help us answer the following research questions:
 
-These prototypes were presented to five people in hour-long research sessions. They facilitated conversations to help us answer these research questions:
+- Do people understand that data can be about multiple people?
+- What are the challenges of transferring data about multiple people between services?
+- How do people feel about other people using data about them in services?
+- Do people realise other people might have rights to data about them?
 
-- Do people understand that data about them can be used by multiple services?
-- How do people feel about other people using data about them in other services?
-- Can people recognise information about them amongst other people’s information?
-- What are the limits of using information about multiple people?
+The people we interviewed came from multi-generational households, across a range of genders and backgrounds. They had experience of using devices including laptops, smartphones, smart speakers and wearables and digital services including social media, streaming services and online shopping.
 
-The people we interviewed came from multi-generational households, across a range of genders and ethnic backgrounds. They used products including laptops, smartphones, smart speakers and wearables and digital services including social media, streaming services and online shopping.
 
 
 ## READING LIST
