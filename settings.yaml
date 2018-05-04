@@ -1,7 +1,7 @@
 # About
 title: GDPR, Data Portability and Data About Multiple People
-sub_title: Exploring rights to data portability when the data describes more than one person
-description: In collaboration with the Open Data Institute, IF researched how data portability could work when data is about multiple people.
+sub_title: Exploring rights to data portability when data describes more than one person
+description: In collaboration with the Open Data Institute, IF researched how the right to data portability might work in cases where the data being ‘ported’ is about multiple people.
 publication_date: May 2018
 url: CHANGEME
 
@@ -23,13 +23,10 @@ pages:
   - title: "Theme 4: Shared and competing rights"
     class: "Theme-4"
     custom_contents: "<p><span class=\"content_sublabel\">Theme 4</span><br /><span class=\"content_label\">Shared and competing rights</span></p>"
-  - title: "Summary: building the future"
-    custom_contents: "<p><span class=\"content_sublabel\">Summary</span><br /><span class=\"content_label\">Building the future</span></p>"
+  - title: "Summary and recommendations"
   - title: "About this research"
     appendix: true
-  - title: "Designing for data portability"
-    appendix: true
-  - title: "Prototypes"
+  - title: "Design principles for data portability"
     appendix: true
 
 # Design

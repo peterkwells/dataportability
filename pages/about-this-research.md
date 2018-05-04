@@ -16,25 +16,20 @@ These prototypes were presented to five people in hour-long research sessions. T
 The people we interviewed came from multi-generational households, across a range of genders and ethnic backgrounds. They used products including laptops, smartphones, smart speakers and wearables and digital services including social media, streaming services and online shopping.
 
 
+## READING LIST
 
-* [OpenSignal](https://opensignal.com/) produce coverage maps based on data crowdsourced from millions of users of their smartphone app
+To learn more about data portability, here are a few resources we found useful and interesting:
+	
+* Gergely Bicz and Pern Hui Chia. 2013. [Interdependent Privacy: Let Me Share Your Data](https://fc13.ifca.ai/proc/10-1.pdf)
 
-* [OpenCellid](https://opencellid.org/) crowdsource mobile phone towers and Wi-Fi access points, making the data available for anyone to download
+* Aysem Diker Vanberg. 2018. [The right to data portability in the GDPR: What lessons can be learned from the EU experience?](http://ejlt.org/article/view/546/726) In Journal of Internet Law 21.7.
 
-* [This report](http://www.bbc.co.uk/news/world-us-canada-42677604) about faulty technology and the missile alert in Hawaii
+* Barbara Engels. 2016. [Data portability among online platforms](https://policyreview.info/articles/analysis/data-portability-among-online-platforms). In Internet Policy Review, 5.2.
 
-* These Wikipedia entries about [variable-message signs](https://en.wikipedia.org/wiki/Variable-message_sign) and [machine readable addresses (RM4SCC)](https://en.wikipedia.org/wiki/RM4SCC)
+* Financial Conduct Authority. [FCA finalises revised Payment Services Directive (PSD2) requirements](https://www.fca.org.uk/news/press-releases/fca-finalises-revised-psd2-requirements). 19 September 2017.
 
-* This [Wired article](http://www.wired.co.uk/article/linkuk-bt-google-free-wifi-and-calls-london) on the link between corporate surveillance and Wi-Fi kiosks
+* Paul De Hert, Vagelis Papakonstantinou, Gianclaudio Malgieri, Laurent Beslay, and Ignacio Sanchez. 2018. [The right to data portability in the GDPR: Towards user-centric interoperability of digital services](https://www.sciencedirect.com/science/article/pii/S0267364917303333). In Computer Law & Security Review 34.2.
 
-* This [research paper](https://reader.chathamhouse.org/regulating-data-drive-21st-century-economic-growth-looming-transatlantic-battle) on regulating Big Data
+* Peter Swire and Yianni Lagos. 2013. [Why the right to data portability likely reduces consumer welfare: Antitrust and privacy critique](http://arro.anglia.ac.uk/702656/). In Maryland Law Review 72.2. 
 
-* The UK government’s [policy paper](https://www.gov.uk/government/publications/uk-digital-strategy/executive-summary) on its digital strategy
-
-* [Chip](https://getchip.uk/#how-to) is building a better savings account, using encryption and AI
-
-* [Bill Monitor](https://www.billmonitor.com/)’s consumer calculator helps consumers find phone plans that fit their exact needs
-
-* This [Kaspersky article](https://www.kaspersky.com/blog/virtual-sim/11572/) on virtual SIM cards and what they could mean for the future of mobile phones
-
-* This [article](https://www.metering.com/features-analysis/smart-meters-101-frances-linky-electricity-meters/) on Linky, France’s smart energy meter
+* Reuters Staff. [Mexico financial technology law passes final hurdle in Congress](https://uk.reuters.com/article/us-mexico-fintech/mexico-financial-technology-law-passes-final-hurdle-in-congress-idUKKCN1GD6KX). Reuters, 1 March 2018.
