@@ -24,7 +24,7 @@ When leaving FriendShare, you can request an archive of all the content and inte
 
 People who have data about them in the requested archive will receive a notification.
 
-They can hoose what information about them will be included in the archive.
+They can choose what information about them will be included in the archive.
 
 ![Describe the image for those who have trouble seeing](http://s3-eu-west-1.amazonaws.com/projectsbyif.com/longform/dataportability.projectsbyif.com/Social-Network_Mockup_2_3-2_v1.jpg)
 
